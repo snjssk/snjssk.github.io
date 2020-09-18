@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+html,body {
+  font-family: brandon-grotesque, sans-serif;
+}
+p {
+  font-size: 20px;
+}
+.layout {
+  height: 100vh;
+}
+.top {
+  position: relative;
+}
+.top-h1 {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  font-size: 80px;
+  letter-spacing: 1px;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-content {
+  padding: 5%;
+}
+.about-item {
+  display: inline-block;
+  padding: 15px;
+}
+.about-item > img {
+  display: block;
+  width: 70px;
+}

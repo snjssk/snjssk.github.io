@@ -1,0 +1,14 @@
+{
+  "name": "snjssk.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/snjssk/snjssk.github.io.git",
+  "author": "snjssk <snjssk0403@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  },
+  "scripts": {
+    "dev": "http-server -p 8000"
+  }
+}
