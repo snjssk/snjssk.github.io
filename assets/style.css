@@ -14,11 +14,19 @@ p {
   position: relative;
 }
 .top-h1 {
+  display: inline-flex;
+  align-items: center;
   position: absolute;
   bottom: 5%;
   left: 5%;
-  font-size: 80px;
+  font-size: 40px;
   letter-spacing: 1px;
+}
+.top-img {
+  display: inline-block;
+  width: 50px;
+  border-radius: 50%;
+  padding-right: 12px;
 }
 .about {
   display: flex;
@@ -35,4 +43,11 @@ p {
 .about-item > img {
   display: block;
   width: 70px;
+}
+
+@media screen and (max-width:600px) {
+  .about-item > img {
+    display: block;
+    width: 50px;
+  }
 }
