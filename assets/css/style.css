@@ -1,0 +1,13 @@
+body {
+    color: #4a494c;
+    background-color: #fcfcfc;
+}
+a:hover {
+    color: #1756a9;
+    text-decoration: none;
+}
+.site-header {
+    border: none;
+    min-height: 55.95px;
+    position: relative;
+}
