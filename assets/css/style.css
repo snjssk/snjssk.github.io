@@ -11,3 +11,7 @@ a:hover {
     min-height: 55.95px;
     position: relative;
 }
+.header {
+    background-color: #f7f8f9;
+    padding: 96px 0;
+}
